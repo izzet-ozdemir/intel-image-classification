@@ -70,10 +70,15 @@ The model was trained for 15 epochs. During training, both accuracy and loss imp
 * Macro avg: Precision 0.72, Recall 0.72, F1-score 0.70
 * Weighted avg: Precision 0.71, Recall 0.71, F1-score 0.69
 
-#### 🔍 Insights
+### 🔍 Insights
 * The model performs very well on “Forest” (F1 = 0.95) and Buildings/Street classes.
 * Performance is weaker on the Sea (F1 = 0.25) and Glacier (F1 = 0.60) classes, indicating possible class imbalance or higher intra-class variability.
 * Overall, the model generalizes reasonably well with a test accuracy of ~71%, consistent with validation performance.
+
+### 📌 Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
 
 📌 See notebook for full results and detailed metrics.
 
