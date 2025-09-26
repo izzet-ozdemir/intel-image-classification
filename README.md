@@ -13,12 +13,12 @@ The goal is to gain practical experience in deep learning, covering:
 ## 📂 Dataset
 * Source: Intel Image Classification Dataset on Kaggle
 * Classes:
-  🏢 Buildings
-  🌳 Forest
-  🧊 Glacier
-  ⛰️ Mountain
-  🌊 Sea
-  🛣️ Street
+  * 🏢 Buildings
+  * 🌳 Forest
+  * 🧊 Glacier
+  * ⛰️ Mountain
+  * 🌊 Sea
+  * 🛣️ Street
 * Size: 25,000+ images (150x150 pixels)
 
 ## ⚙️ *Methods & Workflow*
