@@ -47,10 +47,33 @@ The goal is to gain practical experience in deep learning, covering:
    * Overfitting/underfitting analysis
 
 ## 📊 Results
-* Accuracy: ~XX% on test set
-* Loss: XX
-* Confusion Matrix & Classification Report: Included in notebook
-* Grad-CAM: Shows model attention on correct image regions
+The model was trained for 15 epochs. During training, both accuracy and loss improved steadily.
+  * Initial training accuracy (Epoch 1): 36.9%
+  * Initial validation accuracy (Epoch 1): 41.6%
+  * Final training accuracy (Epoch 15): 70.0%
+  * Final validation accuracy (Epoch 15): 70.7%
+  * Best validation accuracy: 73.6% (Epoch 14)
+  * Final validation loss: 0.7144
+  * Test accuracy: 70.8%
+  * Test loss: 0.7122
+
+| Class                | Precision | Recall | F1-score | Support  |
+| -------------------- | --------- | ------ | -------- | -------- |
+| Buildings            | 0.70      | 0.92   | 0.80     | 437      |
+| Forest               | 0.97      | 0.93   | 0.95     | 474      |
+| Glacier              | 0.50      | 0.77   | 0.60     | 553      |
+| Mountain             | 0.78      | 0.74   | 0.76     | 525      |
+| Sea                  | 0.49      | 0.17   | 0.25     | 510      |
+| Street               | 0.88      | 0.76   | 0.81     | 501      |
+| **Overall Accuracy** |           |        | **0.71** | **3000** |
+
+* Macro avg: Precision 0.72, Recall 0.72, F1-score 0.70
+* Weighted avg: Precision 0.71, Recall 0.71, F1-score 0.69
+
+#### 🔍 Insights
+* The model performs very well on “Forest” (F1 = 0.95) and Buildings/Street classes.
+* Performance is weaker on the Sea (F1 = 0.25) and Glacier (F1 = 0.60) classes, indicating possible class imbalance or higher intra-class variability.
+* Overall, the model generalizes reasonably well with a test accuracy of ~71%, consistent with validation performance.
 
 📌 See notebook for full results and detailed metrics.
 
