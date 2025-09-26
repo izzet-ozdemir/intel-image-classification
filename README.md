@@ -29,12 +29,12 @@ The goal is to gain practical experience in deep learning, covering:
 
 *2. Model Development*
     * CNN architecture with:
-      * Convolutional layers
-      * Pooling layers
-      * Dense (fully connected) layers
-      * Dropout for regularization
-      * Activation functions (ReLU, Softmax)
-    * (Optional) Transfer Learning with pretrained models
+     * Convolutional layers
+     * Pooling layers
+     * Dense (fully connected) layers
+     * Dropout for regularization
+     * Activation functions (ReLU, Softmax)
+     * (Optional) Transfer Learning with pretrained models
 
 *3. Model Evaluation*
     * Accuracy & loss plots
