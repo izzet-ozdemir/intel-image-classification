@@ -1,6 +1,6 @@
-🧠 *Intel Image Classification with CNN*
+# 🧠 *Intel Image Classification with CNN*
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project focuses on building a Convolutional Neural Network (CNN) for image classification using the Intel Image Classification Dataset.
 
@@ -10,7 +10,7 @@ The goal is to gain practical experience in deep learning, covering:
 * Model evaluation with metrics and visualizations
 * Interpretation of model decisions using Grad-CAM
 
-📂 Dataset
+## 📂 Dataset
 * Source: Intel Image Classification Dataset on Kaggle
 * Classes:
   🏢 Buildings
@@ -21,7 +21,7 @@ The goal is to gain practical experience in deep learning, covering:
   🛣️ Street
 * Size: 25,000+ images (150x150 pixels)
 
-⚙️ *Methods & Workflow*
+## ⚙️ *Methods & Workflow*
 *1. Data Preprocessing*
     * Resizing & normalization
     * Train/validation/test split
@@ -46,7 +46,7 @@ The goal is to gain practical experience in deep learning, covering:
     * Experiments with number of layers & filters
     * Overfitting/underfitting analysis
 
-📊 Results
+## 📊 Results
 Accuracy: ~XX% on test set
 Loss: XX
 Confusion Matrix & Classification Report: Included in notebook
@@ -55,24 +55,24 @@ Grad-CAM: Shows model attention on correct image regions
 📌 See notebook for full results and detailed metrics.
 
 🚀 How to Run
-# Clone the repository
+> Clone the repository
 > git clone https://github.com/your-username/intel-image-classification.git
 > cd intel-image-classification
 
-# Open notebook in Kaggle or Jupyter
+> Open notebook in Kaggle or Jupyter
 
 
-Requirements:
+## Requirements:
 * Python 3.x
 * TensorFlow / Keras
 * NumPy, Matplotlib, Seaborn
 * Scikit-learn
 
-📎 Links
+## 📎 Links
    📓 Kaggle Notebook
    💻 GitHub Repository
 
-📢 Future Improvements
+## 📢 Future Improvements
 
 * Add Transfer Learning (ResNet, VGG16, MobileNet)
 * Hyperparameter optimization with Keras Tuner
