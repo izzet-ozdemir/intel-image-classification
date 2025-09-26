@@ -69,8 +69,8 @@ Grad-CAM: Shows model attention on correct image regions
 * Scikit-learn
 
 ## 📎 Links
-   📓 Kaggle Notebook
-   💻 GitHub Repository
+   📓 Kaggle Notebook : https://www.kaggle.com/code/iozdemir/intel-image-classification
+   💻 GitHub Repository : https://github.com/izzet-ozdemir/intel-image-classification
 
 ## 📢 Future Improvements
 
